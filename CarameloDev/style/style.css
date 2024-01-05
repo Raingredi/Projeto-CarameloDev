@@ -1,2 +1,153 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@100;400&display=swap');
+
+:root{
+    --cor1: #807ce1;
+    --cor2: #8b86ff;
+    --cor3: #fd8f01;
+    --cor4: #c36004;
+    --cor5: #d9d9d9;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: 0px;
+
+}
+
+body {
+    background-color: white;
+    font-family:'Itim', cursive;
+}
+
+header{
+    background-color: white;
+    height: 100px;
+}
+
+header nav{
+    display: inline;
+    margin: auto;
+}
+
+div a#icone{
+    text-decoration: none;
+    margin: right;
+    text-align: right;
+    padding-bottom: 5px;
+}
+
+div a#icone:hover{
+    text-decoration: underline;
+    color: #8b86ff;
+    font-size: 1.2em;
+    transition-duration: 0.3s;
+}
+main{
+    margin-top: 100px;
+}
+main h1{
+    text-align: center;
+    color: #c36004;
+    font-weight: normal;
+}
+
+main div{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+div a.login{
+    background-color: rgba(127, 124, 225, 0.104);
+    display: block;
+    border-radius: 30px;
+    width: 800px;
+    height: 30px;
+    text-align: center;
+}
+
+div a>img{
+    width: 20px;
+    height: 20px;
+    margin-top: 7px;
+    margin-right: 8px;
+}
+
+div a:hover{
+    color: var(--cor2);
+    text-decoration: underline;
+    font-size: 1.2em;
+    transition-duration: 0.3s;
+}
+
+
+main h2{
+    color: var(--cor1);
+    font-size: 24px;
+    font-weight: normal;
+    padding: 10px;
+}
+
+main form>p{
+    text-align: left;
+    padding: 10px;
+}
+
+main form>input{
+    background-color: rgba(128, 124, 225, 0.10);
+    border: 0px;
+    border-radius: 30px;
+    width: 800px;
+    height: 30px;
+}
+
+form #botao{
+    background-color: var(--cor2);
+    border-radius: 40px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 1.2em;
+    display: block;
+    margin: auto;
+}
+
+main a{
+    text-decoration: none;
+}
+
+main form>a:hover{
+    color: var(--cor2);
+    text-decoration: underline;
+    font-size: 1.2em;
+    transition-duration: 0.3s;
+}
+
+main p{
+    text-align: center;
+    color: #C36004;
+    font-size: 17px;
+    font-weight: 400px;
+    padding: 20px;
+}
+
+footer{
+    background-color: var(--cor3);
+    color: white;
+    font-family: 'Manjari', sans-serif;
+    font-weight:100;
+    text-align: center;
+    font-size: 0.7em;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+}
+
+
+
+
