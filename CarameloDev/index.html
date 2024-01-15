@@ -28,18 +28,19 @@
     <main>
         <h1>LOGIN CARAMELODEV</h1>
         <div>
-            <form>
+            <form method="post" autocomplete="on">
                 <div>
-                    <label for="imail">E-mail: </label>
-                    <input type="email" id="imail" placeholder="Digite o seu E-mail">
+                    <label for="imail">E-mail: </label><br>
+                    <input type="email" id="imail" placeholder="Digite o seu E-mail" required>
                 </div>
 
-                <p>
-                    <label for="isen">Senha: </label>
-                    <input type="Senha" id="isen" placeholder="Digite a sua senha">
-                </p>
+                <div>
+                    <label for="isen">Senha: </label><br>
+                    <input type="Senha" id="isen" placeholder="Digite a sua senha" required>
+                </div>
+                
                 <p>Esqueceu sua senha?<a href="#"> Clique aqui</a></p>
-                <input type="submit" value="Continuar">
+                <div id="botao"><input type="submit" value="Continuar"></div>
             </form>
             <p>Ou escolha a opção:</p>
             <div>
