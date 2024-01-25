@@ -19,19 +19,31 @@
 
 }
 
-body {
+body, html {
+    width: 100vw;
+    height: 100vh;
     background-color: white;
     font-family:'Itim', cursive;
 }
 
-header{
+header>div{
     background-color: white;
-    height: 100px;
+    width: 100vw;
+    background-color: #C36004;
 }
 
-header nav{
-    display: inline;
-    margin: auto;
+div img#logo{
+    width: 200px;
+    display: block;
+    padding: 20px;
+}
+
+header>div>div.sociais{
+    display: block;
+    background-color: #807ce1;
+    position: absolute;
+    top: -50%;
+    transform: translateY(-50%);
 }
 
 div a#icone{
@@ -44,7 +56,7 @@ div a#icone{
 div a#icone:hover{
     text-decoration: underline;
     color: #8b86ff;
-    font-size: 1.2em;
+    font-size: 1.1em;
     transition-duration: 0.3s;
 }
 main{
